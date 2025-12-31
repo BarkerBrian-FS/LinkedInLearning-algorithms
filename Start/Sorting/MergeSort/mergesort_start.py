@@ -20,7 +20,7 @@ def mergesort(dataset):
         k=0 # index into merged array
 
         # TODO: while both arrays have content
-        while i < len(leftarr) and j < len(righarr):
+        while i < len(leftarr) and j < len(rightarr):
             if leftarr[i] < rightarr[j]:
                 dataset[k] = leftarr[i]
                 i+=1
